@@ -4,8 +4,10 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue,
-        body: Container(),
+        backgroundColor: Colors.amber,
+        body: Container(
+          child: Text('Mi_card'),
+        ),
       ),
     ),
   );
