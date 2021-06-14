@@ -5,7 +5,9 @@ void main() {
     MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.amber,
-        body: Container(),
+        body: Container(
+          child: Text('Mi_card'),
+        ),
       ),
     ),
   );
